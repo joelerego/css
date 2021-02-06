@@ -24,7 +24,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 42px;
   margin: 0px;
   padding: 0px;
   background: rgb(68, 0, 255);
@@ -51,7 +51,7 @@ body {
 }
 
 .hero h2 {
-  font-size: 40px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }

@@ -28,27 +28,26 @@ body {
   font-size: 42px;
   margin: 0px;
   padding: 0px;
-  background: rgb(255, 128, 8);
+  background: rgba(255, 187, 0, 1);
   background: -moz-linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgba(255, 204, 0, 1) 100%
+    rgba(255, 187, 0, 1) 0%,
+    rgba(255, 128, 8, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgba(255, 204, 0, 1) 100%
+    rgba(255, 187, 0, 1) 0%,
+    rgba(255, 128, 8, 1) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgb(255, 204, 0) 100%
+    rgba(255, 187, 0, 1) 0%,
+    rgba(255, 128, 8, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8008",endColorstr="#ffcc00",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbb00",endColorstr="#ff8008",GradientType=1);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: inherit;
 }
 
 .hero h2 {
@@ -60,16 +59,30 @@ body {
 .btn-grad {
   font-family: joelerego;
   font-size: 16px;
-  width: 180px;
-  background-image: linear-gradient(
+  background: rgb(255, 128, 8);
+  background: -moz-linear-gradient(
     0deg,
-    #ff8008 0%,
-    #ffbb00 50%,
-    #ff8008 100%
+    rgba(255, 128, 8, 1) 0%,
+    rgba(255, 187, 0, 1) 50%,
+    rgba(255, 128, 8, 1) 100%
   );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 128, 8, 1) 0%,
+    rgba(255, 187, 0, 1) 50%,
+    rgba(255, 128, 8, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 128, 8, 1) 0%,
+    rgba(255, 187, 0, 1) 50%,
+    rgba(255, 128, 8, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8008",endColorstr="#ff8008",GradientType=1);
   margin: 0px;
   margin-top: 8px;
   padding: 8px;
+  width: 160px;
   text-align: center;
   transition: 0.5s;
   background-size: auto 200%;
@@ -79,6 +92,5 @@ body {
 }
 
 .btn-grad:hover {
-  background-position: bottom center;
-  color: #000;
+  background-position: bottom;
 }

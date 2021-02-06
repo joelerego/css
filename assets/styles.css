@@ -28,25 +28,25 @@ body {
   font-size: 42px;
   margin: 0px;
   padding: 0px;
-  background: rgb(225, 0, 255);
+  background: rgba(127, 0, 255, 1);
   background: -moz-linear-gradient(
     0deg,
-    rgba(225, 0, 255, 1) 0%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(225, 0, 255, 1) 0%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(225, 0, 255, 1) 0%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e100ff",endColorstr="#7f00ff",GradientType=1);
   background-clip: text;
-  background-size: auto 48px;
+  background-size: auto 50px;
   background-position: 50% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,36 +61,36 @@ body {
 .btn-grad {
   font-family: joelerego;
   font-size: 16px;
-  background: rgb(127, 0, 255);
+  background: rgba(225, 0, 255, 1);
   background: -moz-linear-gradient(
     0deg,
-    rgba(127, 0, 255, 1) 0%,
-    rgba(225, 0, 255, 1) 50%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 50%,
+    rgba(225, 0, 255, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(127, 0, 255, 1) 0%,
-    rgba(225, 0, 255, 1) 50%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 50%,
+    rgba(225, 0, 255, 1) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(127, 0, 255, 1) 0%,
-    rgba(225, 0, 255, 1) 50%,
-    rgba(127, 0, 255, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 50%,
+    rgba(225, 0, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f00ff",endColorstr="#7f00ff",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e100ff",endColorstr="#e100ff",GradientType=1);
   margin: 0px;
   margin-top: 8px;
   padding: 8px;
   width: 160px;
   text-align: center;
-  transition: 0.5s;
   background-size: auto 200%;
   color: #fff;
   border: 0px;
   border-radius: 48px;
+  transition: 1s;
 }
 
 .btn-grad:hover {

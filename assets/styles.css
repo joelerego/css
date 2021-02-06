@@ -28,24 +28,26 @@ body {
   font-size: 42px;
   margin: 0px;
   padding: 0px;
-  background: rgba(255, 187, 0, 1);
+  background: rgb(225, 0, 255);
   background: -moz-linear-gradient(
     0deg,
-    rgba(255, 187, 0, 1) 0%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(255, 187, 0, 1) 0%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(255, 187, 0, 1) 0%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(225, 0, 255, 1) 0%,
+    rgba(127, 0, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbb00",endColorstr="#ff8008",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e100ff",endColorstr="#7f00ff",GradientType=1);
   background-clip: text;
+  background-size: auto 48px;
+  background-position: 50% 50%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -59,26 +61,26 @@ body {
 .btn-grad {
   font-family: joelerego;
   font-size: 16px;
-  background: rgb(255, 128, 8);
+  background: rgb(127, 0, 255);
   background: -moz-linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgba(255, 187, 0, 1) 50%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 50%,
+    rgba(127, 0, 255, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgba(255, 187, 0, 1) 50%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 50%,
+    rgba(127, 0, 255, 1) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(255, 128, 8, 1) 0%,
-    rgba(255, 187, 0, 1) 50%,
-    rgba(255, 128, 8, 1) 100%
+    rgba(127, 0, 255, 1) 0%,
+    rgba(225, 0, 255, 1) 50%,
+    rgba(127, 0, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8008",endColorstr="#ff8008",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f00ff",endColorstr="#7f00ff",GradientType=1);
   margin: 0px;
   margin-top: 8px;
   padding: 8px;
@@ -86,7 +88,7 @@ body {
   text-align: center;
   transition: 0.5s;
   background-size: auto 200%;
-  color: #000;
+  color: #fff;
   border: 0px;
   border-radius: 48px;
 }

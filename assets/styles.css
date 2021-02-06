@@ -58,7 +58,7 @@ body {
   padding: 0px;
 }
 
-.btn-grad {
+.link {
   font-family: joelerego;
   font-size: 16px;
   background: rgba(225, 0, 255, 1);
@@ -91,8 +91,9 @@ body {
   border: 0px;
   border-radius: 48px;
   transition: 0.5s;
+  text-decoration: none;
 }
 
-.btn-grad:hover {
+.link:hover {
   background-position: bottom;
 }

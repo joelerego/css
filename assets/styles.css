@@ -1,0 +1,57 @@
+@font-face {
+  font-family: joelerego;
+  src: url(../fonts/joelerego.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: joelerego;
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+  background: rgb(68, 0, 255);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(68, 0, 255, 1) 0%,
+    rgba(221, 0, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(68, 0, 255, 1) 0%,
+    rgba(221, 0, 255, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(68, 0, 255, 1) 0%,
+    rgba(221, 0, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4400ff",endColorstr="#dd00ff",GradientType=1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: inherit;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}

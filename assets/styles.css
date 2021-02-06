@@ -90,7 +90,7 @@ body {
   color: #fff;
   border: 0px;
   border-radius: 48px;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .btn-grad:hover {
